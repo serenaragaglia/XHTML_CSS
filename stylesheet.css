@@ -1,5 +1,5 @@
 .Header {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -26,9 +26,9 @@
 	}
 
 #img1{
-	position: absolute;
-	top: 10%;
-	right: 0;
+	position: static;
+	margin-top: -6%;
+	float: right;
 	width: 15%;
 	height: fit-content;
 	display: table;
@@ -37,7 +37,7 @@
 .middle {
 	color: aliceblue;
 	font-size: 18px;
-	font-family:Georgia, 'Times New Roman', Times, serif
+	font-family:Georgia, 'Times New Roman', Times, serif;
 	position: inherit;
 	margin-top: 5%;
 	margin-left: 12%;
