@@ -1,6 +1,6 @@
 #top {
-	margin: 20px 15px 0px 15px;
-	padding: 5px;
+	margin: 15px 15px 0px 15px;
+	padding: 25px;
 	border: 2px solid yellow;
 	background-image: url(file/img/immagine1.jpg);
     background-attachment: scroll;
@@ -12,52 +12,33 @@
 	/*height: auto; /* ie5win fudge begins */
 	height:max-content;
 	}
-html>body #top {
-	height: 70px; /* ie5win fudge ends */
-	}
+
 #left {
 	position: absolute;
 	top: 120px;
-	left: 0px;
-    bottom: 50px;
-	margin: 2px;
-	padding: 10px;
-	border: 5px solid;
+    left: 10px;
+    margin: 15px;
+	padding: 15px;
+	border: 2px solid;
     border-color: darkblue;
 	background: #56c9e9;
-	width: 150px; /* ie5win fudge begins */
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width: 120px;
-    list-style-position:inside;
-    
-	}
-html>body #left {
-	width: 120px; /* ie5win fudge ends */
-	}
-#middle {
-	margin: 20px 190px 20px 190px;
-	padding: 10px;
-	border: 5px solid #ccc;
-	background: #666;
-	}
-#right {
-	position: absolute;
-	top: 120px;
-	right: 0px; /* Opera5.02 will show a space 
-	at right when there is no scroll bar */
-	margin: 20px;
-	padding: 10px;
-	border: 5px solid #ccc;
-	background: #666;
-	width: 150px; /* ie5win fudge begins */
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width: 120px;
-	}
-html>body #right {
-	width: 120px; /* ie5win fudge ends */
+	list-style-position:inside;
+    width: 100px;
 	}
 
+.middle {
+	margin: 20px 265px 20px 170px;
+	padding: 10px;
+	border: 2px solid;
+	}
 
-    
+#right{
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    right: 10px;
+    top: 120px;
+    float: right;
+    margin: 10px;
+    border: 2px solid;
+}
