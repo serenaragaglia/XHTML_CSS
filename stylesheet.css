@@ -1,6 +1,6 @@
 
-#container{
-	width:925px; 
+.container{
+	width: 800px; 
     margin-top: 6%;
 	margin-left: 7%;
 }
@@ -9,36 +9,71 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	width: 925px;
-	height: 82px;
+	right: 0;
+	height: 10%;
 	background-color: red;
+	
+ }
+
+ #titolo {
+	position: relative;
 	color: white;
+	padding: auto;
+	font-size: 200%;
+	font-family:fantasy;
 	text-align: center;
-	font-size: 30px;
-	font-family: fantasy;
+	
  }
 
 .left {
-	position:absolute;
-	top: 7%;
+	position:fixed;
+	top: 5%;
     left: 0;
 	bottom: 0;
-	padding:1%;
 	background: red;
+    width: 8%;
+	}
+
+#lista{
+	position: relative;
+	padding-left: 5%;
+	top: 10%;
 	list-style-position:inside;
 	text-align: left;
-    width: 150px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-size-adjust:inherit ;
 
-	}
+}
+
+A:link{
+	color: black;
+}
+
+A:visited{
+	color: darkred;
+}
+
+.logo{
+	position:fixed;
+	left:0; 
+	top:0; 
+	width: 8%;
+	height: 10%;
+ }
+
+#mapcontainer{
+	width: 60%;
+	height: auto;
+	position: relative;
+	margin-top: 15%;
+	margin-left: 70%;
+
+}
 
 #img1{
 	position: static;
-	margin-top: -6%;
+	margin-top: -50%;
 	float: right;
-	width: 150px;
-	height: fit-content;
+	width: 60%;
 	display: table;
 }
 
@@ -82,12 +117,5 @@
 	margin-top: 100px; 
 	margin-right: 50px; 
 	margin-bottom: 60px; 
- }
-
- .logo{
-	position:fixed;
-	height: 10%;
-	left:0; 
-	top:0; 
  }
 
