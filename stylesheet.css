@@ -2,7 +2,7 @@
 .container{
 	width: 800px; 
     margin-top: 6%;
-	margin-left: 7%;
+	margin-left: 4%;
 }
 
 .Header {
@@ -12,7 +12,6 @@
 	right: 0;
 	height: 10%;
 	background-color: red;
-	
  }
 
  #titolo {
@@ -22,7 +21,6 @@
 	font-size: 200%;
 	font-family:fantasy;
 	text-align: center;
-	
  }
 
 .left {
@@ -40,8 +38,7 @@
 	top: 10%;
 	list-style-position:inside;
 	text-align: left;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-
+	font-family:'Times New Roman', Times, serif;
 }
 
 A:link{
@@ -58,34 +55,53 @@ A:visited{
 	top:0; 
 	width: 8%;
 	height: 10%;
+	object-fit:fill;
+	
  }
 
-#mapcontainer{
-	width: 60%;
+#stormcont{
+	width: 30%;
 	height: auto;
+	position: inherit;
+	margin-top: 5%;
+	left: 30%;
+}
+
+#stormicon{
 	position: relative;
-	margin-top: 15%;
-	margin-left: 70%;
-
+	left: 35%;
+	max-width: 20%;
+	max-height: 30%;
+	align-self:center;
 }
 
-#img1{
-	position: static;
-	margin-top: -50%;
-	float: right;
-	width: 60%;
-	display: table;
-}
-
-.middle {
+#middle1 {
 	color: aliceblue;
 	font-size: 18px;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	position: inherit;
 	margin-top: 5%;
-	margin-left: 12%;
-	width: 69%;
+	margin-left: 10%;
+	width: 150%;
 	}
+
+#mapimg{
+	position:inherit;
+	max-width: 30%;
+	float: right;
+	left: 50%;
+	display: block;
+}
+
+#middle2{
+	position: inherit;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	max-width: 70%;
+	top: 5%;
+	margin-left: 10%;
+	font-size: 18px;
+}
 
 #img2{
 	align-items: center;
@@ -94,6 +110,8 @@ A:visited{
 	width: 65%; 
 	height: 300px;
 }
+
+
 
 
  .foot {
