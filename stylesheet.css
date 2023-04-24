@@ -48,11 +48,11 @@
 	overflow: auto;
 }
 
-A:link{
+li a:link{
 	color: black;
 }
 
-A:visited{
+li a:visited{
 	color: white;
 }
 
@@ -69,7 +69,6 @@ li a:hover{
 	object-fit:fill;
 	
  }
-
 
 #stormicon{
 	position: inherit;
@@ -199,3 +198,50 @@ div.immagini {
 	margin-right: 50px; 
 	margin-bottom: 60px; 
  } */
+
+.news{
+	position: inherit;
+	margin-left: 10%;
+	width: 100%;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+ .news1 {
+	float: left;
+	width: 35%;
+	margin-left: 1%;
+	margin-top: 5% ;
+}
+
+.news2{
+	float: left;
+	width: 35%;
+	margin-top: 5%;
+	margin-left: 5%;
+
+}
+
+.news3{
+	float: left;
+	width: 35%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+ .news a:link{
+	color:red;
+ }
+
+ h2 {
+	font-family: fantasy;
+	text-align: center;
+ }
+
+ .img_news{
+	max-width: 100%;
+	height: 50%;
+	position: inherit;
+	padding: 3%;
+	float: left;
+ }
