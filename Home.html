@@ -4,67 +4,103 @@
 <head>
     <link href="stylesheet.css" rel="stylesheet">
     <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="Img/logo2.png">
 </head>
 
 <!--body-->
-<body background="Img/sfondo.png">  
-    <div id="container">
+<body background="Img/sfondo.png" class="container">  
+
     <div class="Header">
-        <p>Millenium Express</p>
-        <img src="Img/logo.jpg" class="logo" alt="logo">
+        <h1 id="titolo">Millenium Express</h1>
       </div>
 
-<!--menu laterale-->
-    <ul class="left">
-        <li> <a href="Novita.html" target="_blank">Novit&agrave;</a></li>
-        <li> <a href="Catalogo.html" target="_blank">Soggiorni</a></li>
-        <li> <a href="Offerte.html" target="_blank">Offerte</a></li>
-    </ul>
-<!--centro-->
-    <div>
-        <p class="middle">
-            Vi presentiamo la nostra agenzia viaggi, certificata dall'impero galattico.<br/>
-            Un' agenzia spaziale approvata dal supremo comandante Darth Vader in persona.
-            Ci impegnamo a dare il migliore dei servizi per non essere annientati dalla MORTE NERA.<br/>
-            Lasciatevi trasportare dal Millenium Falcon, appena preso da Han Solo, per un viaggio intergalattico mozzafiato.<br/>
-           
-        </p>        
+  <!--menu laterale-->
+    <div class="left">
+        <img src="Img/logo2.png" class="logo" alt="logo">
+        <ul id="lista">
+            <li> <a href="Novita.html" target="_blank">Novit&agrave;</a></li>
+            <li> <a href="Soggiorni.html" target="_blank">Soggiorni</a></li>
+            <li> <a href="Offerte.html" target="_blank">Offerte</a></li>
+        </ul>
     </div>
 
-    <div>
-       <img src="Img/1.png" id="img1"> 
-    </div>
-     
-    <div>
-       <p class="middle">
-        Ecco a voi la magnifica astronave su cui viaggerete!<br/>
-        Con il Millenium Falcon potrete provare il brivido di percorrere la rotta di Kessel in meno di 12 parsec.
-       </p> 
-    </div>
-
-    <div>
-        <img src="Img/2.jpg" id="img2">
+  <!--centro-->
+    <div id="middle1">
+        <p >
+            <img src="Img/map.jpg" id="mapimg"/>
+           L'agenzia di viaggi intergalattici Millenium Express &egrave; stata certificata dal supremo comandante Darth Vader in persona e 
+           offre le migliori esperienze spaziali, diffidate dalle altre compagnie che in giro per la galassia! <br />
+            La Millenium Express garantisce servizi impeccabili di consulenza e la massima professionalit&agrave; del personale imperiale che vi accompagner&agrave; in questo viaggio.<br/>
+            Lasciatevi trasportare dal Millenium Falcon guidato dal leggendario Han Solo e il suo 
+            fedele compagno di viaggio Chewbacca, con i quali potrete esplorare la galassia e i suoi innumerevoli segreti.<br/> 
+        </p>   
     </div>
     
+    <!--Stormtrooper-->
+    <div class="gallery">
+         <img src="Img/stormtrooper.png" id="stormicon" /> 
+    </div> 
+    <div class="gallery">
+        <img src="Img/stormtrooper.png" id="stormicon" /> 
+   </div> 
+   <div class="gallery">
+    <img src="Img/stormtrooper.png" id="stormicon" /> 
+</div>   
 
-    <!--footer-->
-    <div class="footer">
-        <table style="width: 100%; float: right;">
-            <tbody>
-                <tr >
-                    <th>Contatti:</th>
-                    
-                    <!--<td rowspan="2" colspan="2"><img src="Img/logo.jpg" style="width: 5%; float: right;"></td>-->
-                </tr>
-                <tr>
-                    <td>Han Solo 333 6778 000</td>
-                    <td>Chewbacca wannn</td>
-                </tr>
-            </tbody>    
-        </table>
+    <div>
+       <p id="middle2">
+        Tutti i clienti della Millenium Express possono scegliere tra l'astronave su cui preferiscono viaggiare, tra quelle l'agenzia offre.<br/>
+        Potete lasciarvi trasportare tra gli aridi deserti di Tatooine alle fredde distese di ghiaccio di Hoth dal mercantile Ghost, oppure se preferite un'esperienza
+        pi&ugrave; rilassante non esitate a scegliere la nave reale di Naboo, raffinata ed elegante, che vi porter&agrave; alla scoperta della natura incontaminata da Kashyyk a Endor, dove sar&agrave; possibile 
+        conoscere la cultura degli Ewok. Se nessuna delle precendenti opzioni vi ha affascinato, forse siete tipi da avventura turbolenta e allora il Millenium Falcon &egrave; ci&ograve; che fa al caso vostro! <br/>
+        </p>
     </div>
 
+    <div class="immagini" style="margin-left: 10%;">
+        <a target="_blank" href="Img/nave1.jpg">
+            <img src="Img/nave1.jpg" />
+        </a>
+        <div class="desc" >
+            Millenium Falcon
+        </div>
+    </div>
+
+    <div class="immagini">
+        <a target="_blank" href="Img/nave2.png">
+            <img src="Img/nave2.png" alt="Naboo" />
+        </a>
+        <div class="desc">
+            Nave reale di Naboo
+        </div>
+    </div>
+
+    <div class="immagini">
+        <a target="_blank" href="Img/nave 3.png">
+            <img src="Img/nave 3.png" />
+        </a>
+        <div class="desc">
+            Ghost
+        </div>
+
+    </div>
+    
 </div>
+
+
+<footer class="foot_container">
+    <div>
+        <div class="contatti"> I nostri contatti </div>
+        <div class="txt1">
+            Serena Ragaglia <br/>
+            <a href="mailto:serenaragaglia@millenium.com">serenaragaglia@millenium.com</a>
+        </div>
+    
+        <div class="txt2">
+            Riccardo Iacoangeli <br/>
+            <a href="mailto:riccardoiacoangeli@millenium.com">riccardoiacoangeli@millenium.com</a>
+        </div>
+    </div>
+    </footer>
 
 </body>
 

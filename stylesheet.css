@@ -1,87 +1,252 @@
 
+.container{
+	width: 800px; 
+	height: 800px;
+    margin-top: 6%;
+	margin-left: 4%;
+	
+}
+
 .Header {
 	position: fixed;
 	left: 0;
 	top: 0;
-	width: 100%;
-	height: 10%;
+	right: 0;
+	height: 13%;
 	background-color: red;
+ }
+
+ #titolo {
+	position: relative;
 	color: white;
+	padding: auto;
+	font-size: 200%;
+	font-family:fantasy;
 	text-align: center;
-	font-size: 30px;
-	font-family: fantasy;
+	margin-top: 2%;
  }
 
 .left {
-	position: fixed;
-	top: 7%;
+	position:fixed;
+	top: 5%;
     left: 0;
 	bottom: 0;
-	padding:1%;
 	background: red;
-	list-style-position:inside;
-	text-align: left;
-    width: 10%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-size-adjust:inherit ;
-
+    width: 8%;
+	height: 100%;
 	}
 
-#img1{
-	position: static;
-	margin-top: -6%;
-	float: right;
-	width: 15%;
-	height: fit-content;
-	display: table;
+#lista{
+	position: fixed;
+	margin-top: 5%;
+	left: 0;
+	list-style-position:inside;
+	list-style-type: none;
+	text-align: left;
+	font-family:'Times New Roman', Times, serif;
+	display: block;
+	overflow: auto;
 }
 
-.middle {
+li a:link{
+	color: black;
+}
+
+li a:visited{
+	color: white;
+}
+
+li a:hover{
+	background-color: coral;
+}
+
+.logo{
+	position:fixed;
+	float: left;
+	top:0; 
+	width: 7%;
+	height: 13%;
+	object-fit:fill;
+	
+ }
+
+#stormicon{
+	position: inherit;
+	left: 35%;
+	max-width: 40%;
+	max-height: 30%;
+	align-self:center;
+}
+
+div.gallery {
+	margin: 2%;
+	padding: 2%;
+	max-width: 20%;
+	float: right;
+  }
+
+#middle1 {
 	color: aliceblue;
 	font-size: 18px;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	position: inherit;
-	margin-top: 5%;
-	margin-left: 12%;
-	width: 69%;
+	padding-top: 3%;
+	margin-left: 10%;
+	width: 150%;
 	}
 
-#img2{
+#mapimg{
+	position:inherit;
+	max-width: 40%;
+	float: right;
+	left: 90%;
+	display: block;
+	padding-left: 3%;
+}
+
+#middle2{
+	position: inherit;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	max-width: 100%;
+	top: 5%;
+	margin-left: 10%;
+	font-size: 18px;
+}
+
+div.immagini {
+	position: inherit;
+	margin: 2%;
+	border: 1px solid white;
+	background-color: white;
+	width: 23%;
+	float: left
+  }
+  
+div.immagini:hover {
+	border: 1px solid red;
+	background-color: red;
+	width: 25%;
+  }
+  
+div.immagini img {
+	width: 100%;
 	align-items: center;
-	margin-left: 170px;
-	margin-right: 300px; 
-	width: 65%; 
-	height: 300px;
+  }
+  
+div.desc {
+	padding: 15px;
+	text-align: center;
+	color: black;
+  }
+
+footer.foot_container{
+	position: absolute;
+	top: 150%;
+	width: 100%;
+	height: 10%;
+	right: 0;
+	bottom: -10%;
+	background-color: red;
+	float:left;
 }
 
 
- .footer {
+.contatti{
+	color: aliceblue;
+	font-family: fantasy;
+	text-align: center;
+	width: 100%;
+}
+
+.txt1{
+	width: 20%;
+	margin-left: 10%;
+	text-align: left;
+	font-family: fantasy;
+	color: aliceblue;
+	float: left;
+}
+
+.txt2{
+	width: 20%;
+	margin-right: 5%;
+	text-align: right;
+	float: right;
+	font-family: fantasy;
+	color: aliceblue;
+}
+
+/* .footer {
 	position: relative;
-	background-image: url(Img/sfondo.png);
 	margin: -20px ;
 	right: 0;
 	left: -20px;
 	bottom: -20px;
-	width: 100%;
-	background-color: red;
-	color: white;
+	width:100%;
 	text-align: center;
-	font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  .tabella1{
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 100%;
+	font-family: fantasy;
 	font-size: 16px;
-	color: red;
+	color: aliceblue;
+	background-color: red;
 	margin-left: 180px;
 	margin-top: 100px; 
 	margin-right: 50px; 
 	margin-bottom: 60px; 
+ } */
+
+.news{
+	position: inherit;
+	margin-left: 10%;
+	width: 130%;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	
+}
+ .news1 {
+	float: left;
+	width: 30%;
+	margin-left: 1%;
+	margin-top: 3% ;
+}
+
+.news2{
+	float: left;
+	width: 30%;
+	margin-top: 3% ;
+	margin-left: 3%;
+
+}
+
+.news3{
+	position: inherit;
+	float: right;
+	align-items: right;
+	width: 50%;
+	margin-right: 0%;
+	margin-top: 0;
+	margin-left: 800px;
+}
+
+ .news a:link{
+	color:red;
  }
 
- .logo{
-	position:fixed;
-	height: 10%;
-	left:0; 
-	top:0; 
+ h2 {
+	font-family: fantasy;
+	text-align: center;
  }
+
+ .img_news{
+	max-width: 100%;
+	height: 50%;
+	position: inherit;
+	padding: 3%;
+	float: left;
+ }
+

@@ -4,66 +4,98 @@
 <head>
     <link href="stylesheet.css" rel="stylesheet">
     <title>Novit&agrave;</title>
+    <link rel="icon" type="image/x-icon" href="Img/logo2.png">
 </head>
 
-<body style="background-image: url(Img/sfondo.png);">  
+<body background="Img/sfondo.png" class="container">  
     <div class="Header">
-        <p>Novit&agrave; stellari</p>
-        <img src="Img/logo.jpg" class="logo">
+        <h1 id="titolo">Novit&agrave; stellari</h1>
       </div>
-<div >
-    <ul class="left">
-        <li> <a href="Home.html" target="_blank">Home</a></li>
-        <li> <a href="Catalogo.html" target="_blank">Soggiorni</a></li>
-        <li> <a href="Offerte.html" target="_blank">Offerte</a></li>
-    </ul>
-</div>
-<div>
-    <table class="tabella1">
-        <tbody>
-            <tr>
-                <td ><img src="Img/torneo.gif" style="width: 100%;"></td>
-                <td >I Maestri Jedi e i loro allievi si potranno sfidare in un duello con le spade laser contro i Sith.<br/>
-                    Non perdetevi questa esperienza all'ultimo sangue, ne vale la pena!
-                    Per iscriversi al torneo potete cliccare
-                    <a href="mailto:jedivssith@gmail.com">qui</a> e scrivere una mail all'organizzatore.
-                </td>
-            </tr>
-            <tr>
-                <td >Nella Taverna di Mos Eisley potrete trovare la band pi&ugrave; famosa di tutta la galassia: i Cantina Band!<br/>
-                    Saranno pronti ad esibirsi per un'interminabile quantit&agrave; di tempo con la loro unica canzone.
-                    L'accesso &egrave;libero e all'interno potrete consumare ci&ograve; che preferite, ma state attenti alle risse...
-                </td>
-                <td ><img src="Img/cantina.png" style="width: 100%;"></td>
-            </tr>
-            
-        </tbody>
-    </table>
-</div>
+
+  <!--menu laterale-->
+    <div class="left">
+        <img src="Img/logo2.png" class="logo" alt="logo">
+        <ul id="lista">
+            <li> <a href="Home.html" target="_blank">Home</a></li>
+            <li> <a href="Soggiorni.html" target="_blank">Soggiorni</a></li>
+            <li> <a href="Offerte.html" target="_blank">Offerte</a></li>
+        </ul>
+    </div>
+
+
+<div class="news">    
+    <div class="news1">
+        <h2>
+            Torneo di spade laser 
+        </h2>
+            <p align="justify">
+            I Maestri Jedi e i loro allievi si potranno sfidare in un duello con le spade laser contro i Sith.
+            Non perdetevi questa esperienza all'ultimo sangue, ne vale la pena! Le iscrizioni sono aperte sia per partecipare che per guardare.
+            Gli scontri si terrano al tempio Jedi su Coruscant, per iscrivervi potete cliccare
+            <a href="mailto:jedivssith@gmail.com">qui</a> e inviare una mail all'organizzatore.
+            </p> 
+        <div>
+            <img src="Img/torneo2.jpg" class="img_news" alt="torneo spade"/>
+        </div>
+    </div>
+    <div class="news2">
+        <h2> 
+            Serata karaoke a Mos Eisley
+        </h2>
+        <p align="justify">
+        Nella Taverna di Mos Eisley sono pronti ad esibirsi i Cantina Band, che vi intratterrano suonando la loro unica canzone a ripetizione.
+        Con questo sottofondo piacevole potrete sorseggiare un drink e gustarvi un'ottimo pasto.<br/>
+        L'accesso &egrave; libero e all'interno troverete persone provenienti da tutta la galassia, quindi state attenti alle risse...
+        </p>
+    <div>
+        <img src="Img/cantina2.jpg" class="img_news" alt="cantina"/>
+    </div>
+    </div>
+
+    <div class="news2">
+        <h2>
+            Corsa di sgusci
+        </h2>
+        <p align="justify">
+            Le corsa di sgusci &egrave; uno sport molto popolare nelle regioni periferiche della galassia. Su Tatooine queste corse vengono viste come
+            una prova definitiva di abilit&agrave; e coraggio e costituiscono uno dei divertimenti pi&ugrave; pericolosi mai inventati. <br/>
+            Adesso potrete prenderne parte anche voi, non perdetevi questa esperienza unica nel suo genere, avrete anche la possibilit&agrave; di costruire il vostro 
+            sguscio e siete abbastanza bravi vincerete il premio finale! L'alternativa per i meno avventurosi &egrave; vedere tutta la gara dagli spalti facendo il tifo per
+            il concorrente migliore. <br/>
+            Affrettatevi, i posti per partecipare e i biglietti per le tribune sono limitati!
+        </p>
+        <div>
+            <img src="Img/sguscio.jpg" class="img_news" alt="sguscio"/>
+        </div>
+
+
+    </div>
+
+   
+
+
+</div>  
+                
+              
+ 
+
 
 <!--footer-->
-        </style>
-    <div class="footer">
-        <table style="width: 100%; float: right;">
-            <tbody>
-                <tr >
-                    <th>Contatti:</th>
-                    
-                    <!--<td rowspan="2" colspan="2"><img src="Img/logo.jpg" style="width: 5%; float: right;"></td>-->
-                </tr>
-                <tr>
-                    <td>Han Solo 333 6778 000</td>
-                    <td>Chewbacca wannn</td>
-                </tr>
-            </tbody>
-            
-            </table>
-      </div>
+<footer class="foot_container">
+<div>
+    <div class="contatti"> I nostri contatti </div>
+    <div class="txt1">
+        Serena Ragaglia <br/>
+        <a href="mailto:serenaragaglia@millenium.com">serenaragaglia@millenium.com</a>
+    </div>
 
+    <div class="txt2">
+        Riccardo Iacoangeli <br/>
+        <a href="mailto:riccardoiacoangeli@millenium.com">riccardoiacoangeli@millenium.com</a>
+    </div>
+</div>
+</footer>
 </body>
 
-<!--<footer style="bottom: 0; left: 0; background-color: aqua; width: 100%;">-->
-   
-</footer>
 
 </html>
