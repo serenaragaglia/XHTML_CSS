@@ -177,28 +177,6 @@ footer.foot_container{
 	color: aliceblue;
 }
 
-/* .footer {
-	position: relative;
-	margin: -20px ;
-	right: 0;
-	left: -20px;
-	bottom: -20px;
-	width:100%;
-	text-align: center;
- }
-
- .tabella1{
-	width: 100%;
-	font-family: fantasy;
-	font-size: 16px;
-	color: aliceblue;
-	background-color: red;
-	margin-left: 180px;
-	margin-top: 100px; 
-	margin-right: 50px; 
-	margin-bottom: 60px; 
- } */
-
 .news{
 	position: inherit;
 	margin-left: 10%;
@@ -221,16 +199,6 @@ footer.foot_container{
 	margin-top: 3% ;
 	margin-left: 3%;
 
-}
-
-.news3{
-	position: inherit;
-	float: right;
-	align-items: right;
-	width: 50%;
-	margin-right: 0%;
-	margin-top: 0;
-	margin-left: 800px;
 }
 
  .news a:link{
